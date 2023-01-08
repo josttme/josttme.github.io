@@ -1,21 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 @tailwind base;
-@tailwind components;
 @tailwind utilities;
-button:hover div:first-child {
-	margin-left: 25%;
-	transform: rotate(45deg);
-}
-
-button:hover div:nth-child(2) {
-	opacity: 0;
-}
-
-button:hover div:last-child {
-	margin-left: 25%;
-	margin-top: 5px;
-	transform: rotate(-45deg);
-}
 .cursor {
 	box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
 	-webkit-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);

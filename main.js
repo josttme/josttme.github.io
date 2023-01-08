@@ -1,5 +1,8 @@
 import './style.css'
 
+const body = document.querySelector('body')
+const screenHeight = window.innerHeight
+body.style.height = screenHeight + 'px'
 const cursor = document.querySelector('.cursor')
 let timeout
 
@@ -13,12 +16,17 @@ if ('ontouchstart' in window) {
 			dot.id = parseInt(touch.identifier)
 			document.body.append(dot)
 		})
+		document.addEventListener('touchmove', (e) => {
+			;[...e.changedTouches].forEach((touch) => {
+				const dot = document.getElementById(touch.identifier)
+				dot.style.top = `${touch.pageY}px`
+				dot.style.left = `${touch.pageX}px `
+			})
+		})
 		document.addEventListener('touchend', (e) => {
-			setTimeout(() => {
-				;[...e.changedTouches].forEach((touch) => {
-					const dot = document.getElementById(touch.identifier)
-					dot.remove()
-				}, 500)
+			;[...e.changedTouches].forEach((touch) => {
+				const dot = document.getElementById(touch.identifier)
+				dot !== null && dot.remove()
 			})
 		})
 		document.addEventListener('touchcancel', (e) => {
