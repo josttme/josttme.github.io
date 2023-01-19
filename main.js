@@ -1,8 +1,8 @@
 import './style.css'
 
-const body = document.querySelector('body')
+/* const body = document.querySelector('body')
 const screenHeight = window.innerHeight
-body.style.height = screenHeight + 'px'
+body.style.height = screenHeight + 'px' */
 const cursor = document.querySelector('.cursor')
 let timeout
 
