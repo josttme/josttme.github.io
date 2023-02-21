@@ -3,7 +3,7 @@ import './style.css'
 /* const body = document.querySelector('body')
 const screenHeight = window.innerHeight
 body.style.height = screenHeight + 'px' */
-const cursor = document.querySelector('.cursor')
+/* const cursor = document.querySelector('.cursor')
 let timeout
 
 if ('ontouchstart' in window) {
@@ -55,3 +55,4 @@ if ('ontouchstart' in window) {
 		cursor.style.display = 'none'
 	})
 }
+ */

@@ -1,8 +1,27 @@
 @tailwind base;
 @tailwind utilities;
 .cursor {
-	box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
-	-webkit-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
-	-moz-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
-	@apply pointer-events-none fixed z-30 h-6 w-6  -translate-x-2/4 -translate-y-2/4 rounded-full bg-secondary lg:h-5 lg:w-5;
+  box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
+  -webkit-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
+  -moz-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
+  @apply pointer-events-none fixed z-30 h-6 w-6  -translate-x-2/4 -translate-y-2/4 rounded-full bg-secondary lg:h-5 lg:w-5;
+}
+
+.vite:hover {
+  filter: drop-shadow(0 0 0.7rem #646cffaa);
+}
+.tailwind:hover {
+  filter: drop-shadow(0 0 0.7rem #00b7d3);
+}
+.lit:hover {
+  filter: drop-shadow(0 0 0.7rem #0044ffd3);
+}
+.javascript:hover {
+  filter: drop-shadow(0 0 0.7rem #f7de1e57);
+}
+.react:hover {
+  filter: drop-shadow(0 0 0.7rem #61dafbaa);
+}
+.sass:hover {
+  filter: drop-shadow(0 0 0.7rem #f7729cb7);
 }
