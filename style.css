@@ -1,5 +1,13 @@
 @tailwind base;
 @tailwind utilities;
+
+@font-face {
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/Nunito-Bold.ttf');
+  font-display: swap;
+}
 .cursor {
   box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
   -webkit-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
