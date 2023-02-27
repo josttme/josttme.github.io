@@ -13,14 +13,14 @@ cd dist
 echo > .nojekyll
 
 # if you are deploying to a custom domain
-# echo 'www.jostt.me' > CNAME
+# echo 'https://www.jostt.me' > CNAME
 
 git init
 git checkout -B main
 git add -A
 git commit -m 'deploy'
 
-# if you are deploying to https://josttme.github.io
+# if you are deploying to https://www.jostt.me
 # git push -f git@github.com:josttme/josttme.github.io.git main
 
 # if you are deploying to https://<USERNAME>.github.io/<REPO>

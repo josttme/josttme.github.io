@@ -8,6 +8,13 @@
   src: url('/Nunito-Bold.ttf');
   font-display: swap;
 }
+* {
+  box-sizing: border-box;
+}
+.name {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 .cursor {
   box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
   -webkit-box-shadow: 0px 0px 117px 22px rgba(0, 152, 212, 0.82);
