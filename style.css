@@ -40,3 +40,6 @@
 .sass:hover {
   filter: drop-shadow(0 0 0.7rem #f7729cb7);
 }
+.github:hover {
+  filter: drop-shadow(0 0 0.7rem #000000b7);
+}
